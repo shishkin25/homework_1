@@ -1,0 +1,26 @@
+/* Независимый блок заглушки чего-либо. Можно использоватсья для заглушки проектов, задач и тп */
+
+@import '/css/base/variables.css';
+
+.absense-of-sth {
+    padding: 24px;
+    height: 100%;
+}
+
+.absense-of-sth .absense-of-sth__content-wrapper {
+    height: 100%;
+    border: 1px solid var(--border-default);
+    border-radius: 4px;
+
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+}
+
+.absense-of-sth .absense-of-sth__text {
+    font-weight: 400;
+    font-size: var(--default-fz);
+    color: var(--primary-font);
+    text-align: center;
+}

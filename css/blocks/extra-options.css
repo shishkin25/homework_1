@@ -1,0 +1,25 @@
+@import '/css/base/variables.css';
+
+.extra-options {
+    display: none;
+    width: 42px;
+    height: 42px;
+    border: 1px solid var(--border-default);
+    border-radius: 4px;
+    margin: 0 0 0 16px;
+    cursor: pointer;
+}
+
+.extra-options:hover {
+    background-color: var(--secondary-bgc-hover);
+    border: 1px solid var(--border-hover);
+}
+
+.extra-options:active {
+    background-color: var(--secondary-bgc-active);
+    border: 1px solid var(--border-active);
+}
+
+.extra-options svg {
+    fill: var(--border-active);
+}

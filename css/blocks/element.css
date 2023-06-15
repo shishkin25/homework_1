@@ -1,0 +1,54 @@
+/* Независимый блок для элементов (списика задач, списка проектов и т.п). Используется в обоих случаях*/
+@import '/css/base/variables.css';
+
+.element {
+    padding: 24px 24px 0 24px;
+}
+
+.element:hover .extra-options{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.element .element__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 16px 8px 16px;
+    border-bottom: 1px solid var(--border-active);
+}
+
+.element .element__content {
+    width: 100%;
+}
+
+.element .element__content-header, .element .element__content-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.element .element__content-header {
+    margin: 0 0 18px 0;
+}
+
+.element .element__content-name {
+    font-weight: 400;
+    font-size: var(--default-fz);
+}
+
+.element .element__content-info {
+    display: flex;
+    align-items: flex-end;
+}
+
+.element .element__content-code {
+    font-weight: 400;
+    font-size: var(--default-fz);
+    margin: 0 16px 0 0;
+}
+
+.element .element__content-created {
+    margin: 0 16px 0 0;
+}

@@ -1,0 +1,7 @@
+@import '/css/base/variables.css';
+
+.timestamp {
+    font-weight: 400;
+    font-size: var(--default-fz);
+    color: var(--disabled-font);
+}

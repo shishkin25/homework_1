@@ -1,0 +1,21 @@
+:root {
+    --primary-bgc: #1F75CB;
+    --primary-bgc-hover: #1068BF;
+    --primary-bgc-active: #0B5CAD;
+    --secondary-bgc: #FFFFFF;
+    --secondary-bgc-hover: #ECECEF;
+    --secondary-bgc-active: #DCDCDE;
+
+    --primary-font: #1C1C1C;
+    --secondary-font: #FFFFFF;
+    --disabled-font: #8E8E8E;
+    --error-font: #EE4222;
+
+    --border-default: rgba(0, 0, 0, 0.15);
+    --border-hover:  rgba(18, 19, 22, 0.5);
+    --border-active: #1C1C1C;
+
+    --default-fz: 14px;
+
+    --bronze: #9E6955;
+}

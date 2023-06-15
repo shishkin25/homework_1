@@ -1,0 +1,15 @@
+@import '/css//base/variables.css';
+
+.btn {
+    border-radius: 4px;
+    background-color: var(--primary-bgc);
+    font-weight: 400;
+    font-size: var(--default-fz);
+    color: var(--secondary-font);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 42px;
+    padding: 0 16px;
+    cursor: pointer;
+}

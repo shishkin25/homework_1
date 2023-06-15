@@ -1,0 +1,12 @@
+@import '/css/base/variables.css';
+
+.status {
+    padding: 0 8px;
+    height: 19px;
+    color: var(--secondary-bgc);
+    border-radius: 4px;
+    background-color: var(--bronze);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
