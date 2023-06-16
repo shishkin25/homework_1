@@ -1,6 +1,6 @@
 /* Независимый блок заглушки чего-либо. Можно использоватсья для заглушки проектов, задач и тп */
 
-@import '/css/base/variables.css';
+@import '../base/variables.css';
 
 .absense-of-sth {
     padding: 24px;

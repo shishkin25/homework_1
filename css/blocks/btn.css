@@ -1,4 +1,4 @@
-@import '/css//base/variables.css';
+@import '../base/variables.css';
 
 .btn {
     border-radius: 4px;

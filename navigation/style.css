@@ -1,7 +1,7 @@
-@import '/css/base/variables.css';
-@import '/css/base/fonts.css';
-@import '/css/blocks/avatar.css';
-@import '/css/blocks/btn.css';
+@import '../css/base/variables.css';
+@import '../css/base/fonts.css';
+@import '../css/blocks/avatar.css';
+@import '../css/blocks/btn.css';
 
 .menu .menu__content {
   padding: 24px;
@@ -10,45 +10,45 @@
   justify-content: flex-end;
 }
 
-.menu .nav .nav__list {
+.menu .menu__nav .menu__nav-list {
   display: flex;
 }
 
-.menu .nav .nav__item {
+.menu .menu__nav .menu__nav-item {
   border: 1px solid var(--secondary-bgc);
   margin: 0 24px 0 0;
 }
 
-.menu .nav .nav__item:nth-child(1) {
+.menu .menu__nav .menu__nav-item:nth-child(1) {
   width: 92px;
 }
 
-.menu .nav .nav__item:nth-child(2) {
+.menu .menu__nav .menu__nav-item:nth-child(2) {
   width: 82px;
 }
 
-.menu .nav .nav__item:nth-child(3) {
+.menu .menu__nav .menu__nav-item:nth-child(3) {
   width: 130px;
 }
 
-.menu .nav .nav__item:hover {
+.menu .menu__nav .menu__nav-item:hover {
   background-color: var(--secondary-bgc-hover);
 }
 
-.menu .nav .nav__item:hover a {
+.menu .menu__nav .menu__nav-item:hover a {
   color: var(--primary-font);
 }
 
-.menu .nav .nav__item:active {
+.menu .menu__nav .menu__nav-item:active {
   background-color: var(--secondary-bgc);
 }
 
-.menu .nav .nav__item a {
+.menu .menu__nav .menu__nav-item a {
   color: var(--secondary-font);
   text-decoration: none;
 }
 
-.menu .user-btn {
+.menu .menu__user-btn {
   width: 88px;
   border-radius: 4px;
   display: flex;
@@ -57,22 +57,22 @@
   cursor: pointer;
 }
 
-.menu .user-btn:hover {
+.menu .menu__user-btn:hover {
   border: 1px solid var(--secondary-bgc);
 }
 
-.menu .user-btn:active {
+.menu .menu__user-btn:active {
   background-color: var(--secondary-bgc);
 }
 
-.menu .user-btn:active svg{
+.menu .menu__user-btn:active svg{
   fill: var(--secondary-bgc-active);
 }
 
-.menu .user-btn__arrow {
+.menu .menu__user-arrow {
   margin: 0 0 0 13px;
 }
 
-.menu .user-btn__arrow svg {
+.menu .menu__user-arrow svg {
   fill: var(--secondary-bgc);
 }

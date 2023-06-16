@@ -1,4 +1,4 @@
-@import '/css/base/variables.css';
+@import '../base/variables.css';
 
 .timestamp {
     font-weight: 400;

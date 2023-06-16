@@ -1,7 +1,7 @@
-@import '/css/base/fonts.css';
-@import '/css/base/variables.css';
-@import '/css/blocks/btn.css';
-@import '/css/blocks/absense-of-sth.css';
+@import '../css/base/fonts.css';
+@import '../css/base/variables.css';
+@import '../css/blocks/btn.css';
+@import '../css/blocks/absense-of-sth.css';
 
 .absense-of-sth .absense-of-sth__text_mb {
     margin: 0 0 10px 0;

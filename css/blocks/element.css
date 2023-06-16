@@ -1,5 +1,5 @@
 /* Независимый блок для элементов (списика задач, списка проектов и т.п). Используется в обоих случаях*/
-@import '/css/base/variables.css';
+@import '../base/variables.css';
 
 .element {
     padding: 24px 24px 0 24px;
